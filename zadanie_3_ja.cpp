@@ -8,27 +8,27 @@ int main(int argc, char** argv) {
     int m;
 	int suma=0;
 	
-	cout<<"podaj liczbê"<<endl;
+	cout<<"podaj liczbe"<<endl;
 	cin>>n;
 	
-	for(int a=0; a<n; a++)
+	for(int a=1; a<=n; a++)
 	{
 
-		cout<<"podaj liczbê"<<endl;
+		cout<<"podaj liczbe"<<endl;
 		cin>>m;
 
 		suma=suma+m;
 
 		if(suma>100)
 		{
-			cout<<"suma podanych liczb jest wiêksza ni¿ 100"<<endl;
+			cout<<"suma podanych liczb jest wieksza niz 100"<<endl;
 			cout<<"ilosc wpisanych liczb to "<<a<<endl;
 			break;
 		}
 
 		
 	}
-	cout<<"sumat to"<<endl;
+	cout<<"suma to"<<endl;
 	cout<<suma;
 	return 0;
 }

@@ -5,7 +5,7 @@ using namespace std;
 int main(int argc, char** argv) {
 	
 	int n;
-    int m;
+	int m;
 	int suma=0;
 	
 	cout<<"podaj liczbe"<<endl;
